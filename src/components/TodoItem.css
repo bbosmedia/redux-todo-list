@@ -1,0 +1,24 @@
+.todoItem{
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.todoItem p{
+    flex: 1;
+    padding-right: 10px;
+}
+
+
+
+.todoItem.done p{
+    text-decoration-line: line-through;
+}
+
+.todoItem__icon{
+    color: red;
+    margin-left: 10px;
+}
